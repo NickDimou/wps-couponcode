@@ -37,11 +37,11 @@ $arr = array(
 </div>
     
 <div id="apDiv2">
-	A tie by any other name would still look as sweet.  But a tie at a lower price ...
+	A tie by any other name would still look as sweet. But a tie at a lower price...
   	<br><br>
   <form action="coupon-code.php" method="post">
-   	 	<input type="text" name="couponCode"  placeholder="coupon code" >
-    	<input type="submit" name="submitCouponCode" value="apply coupon">
+   	 	<input type="text" name="couponCode" size="12" placeholder="coupon code" >
+    	<input type="submit" name="submitCouponCode" value="apply">
     </form>
     <br><br>
     <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
@@ -53,6 +53,5 @@ $arr = array(
     </form>
 
 </div>
-
 </body>
 </html>
